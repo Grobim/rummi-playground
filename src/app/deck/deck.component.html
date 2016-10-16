@@ -1,0 +1,10 @@
+<ul>
+  <li
+    *ngFor="let token of playerDeck.tokens"
+    [class.black]="isBlack(token)"
+    [class.blue]="isBlue(token)"
+    [class.yellow]="isYellow(token)"
+    [class.red]="isRed(token)"
+  >{{token.value}}</li>
+</ul>
+

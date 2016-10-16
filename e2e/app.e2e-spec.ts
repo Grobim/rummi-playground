@@ -1,10 +1,10 @@
-import { RummiPlayground1Page } from './app.po';
+import { RummiPlaygroundPage } from './app.po';
 
 describe('rummi-playground1 App', function() {
-  let page: RummiPlayground1Page;
+  let page: RummiPlaygroundPage;
 
   beforeEach(() => {
-    page = new RummiPlayground1Page();
+    page = new RummiPlaygroundPage();
   });
 
   it('should display message saying app works', () => {

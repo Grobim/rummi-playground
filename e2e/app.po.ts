@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class RummiPlayground1Page {
+export class RummiPlaygroundPage {
   navigateTo() {
     return browser.get('/');
   }
